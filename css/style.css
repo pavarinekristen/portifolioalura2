@@ -1,0 +1,244 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.principal {
+    background-image: url("../imagens/pessoas.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.botao1 {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-weight: 512px;
+    margin-bottom: 1em;
+}
+
+.botao1:hover {
+    background-color: darkblue;
+}
+
+.botao2 {
+    text-align: center;
+    border-radius: 5px;
+    padding: 1em;
+    border: 1px solid white;
+    background-color: transparent;
+    display: block;
+    text-decoration: none;
+    color: var(--branco-principal);
+
+}
+
+.botao2:hover {
+    background-color: darkblue;
+}
+
+.aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.texto1 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.combo-da-alura {
+    margin: 1em 0 2em 0;
+}
+
+.caixa {
+    margin: 0 6em;
+}
+
+.imagem__secundaria {
+    width: 80%;
+    height: 560px;
+    top: 775px;
+    left: 165px;
+    margin: 0 3em;
+}
+
+.secundario {
+    align-items: center;
+}
+
+.descricao__titulo {
+    font-size: 48px;
+}
+
+.descricao__tituloo {
+    font-size: 16px;
+}
+
+.imagem__lingua {
+    width: 496px;
+    height: 338.96px;
+    top: 1486px;
+    left: 778px;
+    gap: 0px;
+    border-radius: 16px 0px 0px 0px;
+    opacity: 0px;
+    margin: 0 4em;
+}
+
+.terciario {
+    align-items: center;
+    margin: 0 6em;
+
+}
+
+.botao3 {
+
+    border-radius: 5px;
+    padding: 1em;
+    background-color: var(--botao-azul);
+    display: inline-block;
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin: 1em 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+}
+
+.botao3:hover {
+    background-color: darkblue;
+}
+
+.imagem__note {
+    width: 547px;
+    height: 324px;
+    top: 2051px;
+    left: 141px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.quaternario {
+    align-items: center;
+    margin: 0 4em;
+}
+
+.descricao__titulo3 {
+    font-family: var(--fonte-principal);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: left;
+}
+
+.descricao__tituloo3 {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.descricao__titulo4 {
+    font-family: var(--fonte-principal);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: center;
+
+}
+
+.televisao {
+    width: 339px;
+    height: 192px;
+    top: 2737px;
+    left: 155px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.lista__item {
+    font-family: var(--fonte-principal);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    text-align: center;
+}
+
+.dispositivos__lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.rodape {
+    text-align: center;
+}
+
+.rodape__logo {
+    width: 102px;
+    height: 35.28px;
+    top: 3128px;
+    left: 669px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.rodape__lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 3em 0;
+    padding: 0 5em 0 5em;
+}
+
+.rodape_botao {
+    color: var(--branco-principal);
+    text-decoration: none;
+}
+
+.rodape_botao:hover {
+    background-color: darkblue;
+}
+
+.rodape_botao:active {
+    color: var(--botao-azul);
+
+}
+
+.rodape__texto {
+    margin: 1em 1em;
+    padding: 1em 0 1em 0;
+}
